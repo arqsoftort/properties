@@ -29,7 +29,7 @@ A pesar de que se pueden utilizar otros tipos de archivos, los archivos de exten
 
 Cada línea en estos archivos representa una *property*. A su vez, cada property tiene una *key* y un *value*, que pueden ser representadas de las siguientes maneras (siendo la primera la más común):
 
-```java
+```properties
 key=value
 key = value
 key:value
@@ -38,7 +38,7 @@ key value
 
 En el siguiente ejemplo se definen las claves `color`, `habilitado` y `cantidad`, cada una con un valor asignado.
 
-```java
+```properties
 color=rojo
 habilitado=true
 cantidad=5
@@ -54,7 +54,7 @@ answer=42
 
 Se debe tener en cuenta que para poder usar los caracteres que tienen significados especiales sin su significado, deben ser "escapados". La manera de hacerlo, es agregar una <kbd>\\</kbd> antes. Por ejemplo:
 
-```java
+```properties
 #escapeando el :
 website=http\:www.google.com
 
@@ -67,7 +67,7 @@ guia=Manda un SMS al \#1122
 
 Es una práctica muy común y recomendada el utilizar una nomenclatura similar a la de paquetes para las keys, lo que permite visualizarlas de manera ordenada y agrupada. Por ejemplo:
 
-```java
+```properties
 app.config.enabled=true
 
 app.config.color.primary=rojo
@@ -128,7 +128,7 @@ public static String read(String filename, String key) {
 
 Crear un archivo .properties en la raíz del directorio de código del proyecto con el siguiente contenido:
 
-```java
+```properties
 app.name=PropertiesLab
 app.version=0.0.1
 app.config.skin.name=SuperJavaSkin
@@ -157,9 +157,7 @@ public static void main(String[] args) {
 
 Al ejecutar, se debe leer en la consola el siguiente output:
 
-```java
-Value = SuperJavaSkin
-```
+> Value = SuperJavaSkin
 
 ##Feedback
 Por cualquier consulta sobre el laboratorio, pueden crear un [Issue](https://github.com/asortlabs/properties/issues) en la sección correspondiente y lo responderemos a la brevedad.
