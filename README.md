@@ -46,13 +46,13 @@ cantidad=5
 
 Además, admiten la utilización del caracter <kbd>#</kbd> o <kbd>!</kbd> al comienzo de una línea para marcar que el resto del texto en ella es un comentario. En el siguiente ejemplo, la única clave es `answer`, ya que las demás líneas están comentadas.
 
-```java
+```properties
 #Esto es un comentario
 answer=42
 #Otro comentario
 ```
 
-Se debe tener en cuenta que para poder usar los caracteres que tienen significados especiales sin su significado, deben ser "escapados". La manera de hacerlo, es agregar una <kbd>\</kbd> antes. Por ejemplo:
+Se debe tener en cuenta que para poder usar los caracteres que tienen significados especiales sin su significado, deben ser "escapados". La manera de hacerlo, es agregar una <kbd>\\</kbd> antes. Por ejemplo:
 
 ```java
 #escapeando el :
