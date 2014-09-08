@@ -160,6 +160,6 @@ Al ejecutar, se debe leer en la consola el siguiente output:
 > Value = SuperJavaSkin
 
 ##Feedback
-Por cualquier consulta sobre el laboratorio, pueden crear un [Issue](https://github.com/asortlabs/properties/issues) en la sección correspondiente y lo responderemos a la brevedad.
+Por cualquier consulta sobre el laboratorio, pueden crear un [Issue](https://github.com/arqsoftort/properties/issues) en la sección correspondiente y lo responderemos a la brevedad.
 
-Por aportes sobre el código o documentación, por favor realizar un [Pull Request](https://github.com/asortlabs/properties/pulls) para que podamos evaluarlo e incluirlo.
+Por aportes sobre el código o documentación, por favor realizar un [Pull Request](https://github.com/arqsoftort/properties/pulls) para que podamos evaluarlo e incluirlo.
